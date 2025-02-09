@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Keyframes2</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="bounce"><center>Hi how are you?</center></div>
+        <div class="bounce"> <img src="https://cdn.pixabay.com/animation/2023/01/31/01/54/01-54-03-31_512.gif" widht="400">
+            <div class="bounce"><img src="https://cdn.pixabay.com/animation/2022/11/30/14/57/14-57-54-287_512.gif" width="400">
+        <style>
+            @keyframes bounce {
+                0%,20%,50%,80%,100% {
+                    transform:translateY(0);
+                }
+                40% {
+                    transform:translateY(-30px);
+                }
+                60% {
+                    transform:translateY(-15px);
+                }
+            }
+            .bounce {
+                animation:bounce 2s infinite;
+            }
+        </style>
+        </body>
+        </html>
